@@ -15,3 +15,20 @@ body.guru-theme{--paper:#171514;--ink:#fff7eb;--muted:#ccc4bc;--purple:#f2ba66;c
 .delivery-route .mobile>header,.delivery-route .mobile>footer{display:none}.delivery-route #app{height:100dvh}.delivery.delivery-page{display:flex;flex-direction:column;position:relative;width:100%;max-width:none;height:100dvh;max-height:none;margin:0;border-radius:0;overflow:hidden}.delivery-back{display:block;flex-shrink:0;padding:18px 16px 0;color:var(--purple);text-decoration:none;font-size:14px}.delivery-page .delivery-head{padding:15px 16px 18px}.delivery-page .category-picker{margin-left:16px;margin-right:16px}.delivery-page .delivery-body{padding-left:12px;padding-right:12px}.delivery-page .dish-grid{gap:10px}.delivery-page .basket-bar{padding-left:12px;padding-right:12px}.delivery-page .dish-content{padding:11px}
 /* Center the network heading above the restaurant selection. */
 .intro{text-align:center;padding:24px 20px 24px}.intro h1{margin:0 0 13px;line-height:1.15}.intro .network-label{display:block;font-family:'Manrope',sans-serif;font-size:24px;font-weight:500;letter-spacing:-.6px}.intro h1 em{display:block;font-size:37px;margin-top:3px;letter-spacing:-1px}.intro p:last-child{max-width:300px;margin:0 auto;font-size:14px;line-height:1.55}body:not(.guru-theme) .mobile>header{justify-content:center}
+
+/* Compact light homepage masthead. */
+.home-theme .mobile>header{display:none}
+.home-theme .intro{padding:23px 20px 16px;text-align:center;background:var(--paper)}
+.home-theme .intro h1{margin:0 0 11px}
+.home-theme .intro .network-label{font:500 20px 'Manrope',sans-serif;letter-spacing:-.5px}
+.home-theme .intro h1 em{font:italic 40px/1.12 Georgia,serif;color:var(--purple);letter-spacing:-1px;margin-top:3px}
+.home-theme .intro p{color:var(--muted);font-size:13px;line-height:1.55}
+.restaurant-caption{display:flex;justify-content:space-between;align-items:center;padding:8px 23px 11px;font-size:10px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted)}
+.restaurant-caption span{letter-spacing:0;color:var(--purple)}
+
+/* Booking has its own full-width route. */
+.booking-route .mobile>header,.booking-route .mobile>footer{display:none}
+.delivery.booking-page{display:block;position:relative;width:100%;max-width:none;height:auto;max-height:none;min-height:100dvh;margin:0;border-radius:0;overflow:visible}
+.booking-page .delivery-head{padding:18px 20px 20px}
+.booking-page .delivery-head h2{font-size:24px}
+.booking-page .booking-form,.booking-page .booking-success{overflow:visible}
