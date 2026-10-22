@@ -32,3 +32,5 @@ body.guru-theme{--paper:#171514;--ink:#fff7eb;--muted:#ccc4bc;--purple:#f2ba66;c
 .booking-page .delivery-head{padding:18px 20px 20px}
 .booking-page .delivery-head h2{font-size:24px}
 .booking-page .booking-form,.booking-page .booking-success{overflow:visible}
+
+.dish-no-photo{display:grid;place-items:center;aspect-ratio:1.9;background:#eee6db;color:#9a7157;font:italic 24px Georgia}.basket-item .dish-no-photo{width:64px;height:64px;aspect-ratio:1;font-size:14px;border-radius:12px}.menu-source a{color:inherit}.delivery-page .delivery-head .eyebrow{text-transform:uppercase}
