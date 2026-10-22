@@ -1,4 +1,4 @@
-// Official food menus imported 2026-10-22. Delivery availability requires restaurant confirmation.
+// Official food menus imported 2026-10-22. Harats photographs extracted from its official PDF.
 const restaurantMenus={
   "misto": [
     {
@@ -3597,7 +3597,16 @@ const restaurantMenus={
       "weight": "150 гр",
       "description": "рубленое филе говядины с каперсами, красным луком и специями, заправленное трюфельным маслом. Подаётся с перепелиным яйцом, слайсами шампиньонов и крутонами",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 0,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 4,
+        "sourceImage": "p3-1",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-2",
@@ -3607,7 +3616,16 @@ const restaurantMenus={
       "weight": "100 гр",
       "description": "тонкие слайсы говядины, пармезан, оливковое масло, сок лимона",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 0,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 4,
+        "sourceImage": "p3-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-3",
@@ -3617,7 +3635,16 @@ const restaurantMenus={
       "weight": "110/20 гр",
       "description": "скаморца копчёная, грана падано, горгонзола, грецкие орехи, мёд",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 0,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 4,
+        "sourceImage": "p3-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-4",
@@ -3667,7 +3694,16 @@ const restaurantMenus={
       "weight": "120 гр",
       "description": "рулетики из ростбифа с руколой, вялеными томатами и фирменным соусом",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 0,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 7,
+        "sourceImage": "p6-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-9",
@@ -3677,7 +3713,16 @@ const restaurantMenus={
       "weight": "290 гр",
       "description": "слабосолёная сельдь с маринованным луком и отварным картофелем с зеленью",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 0,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 7,
+        "sourceImage": "p6-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-10",
@@ -3687,7 +3732,16 @@ const restaurantMenus={
       "weight": "550/20 гр",
       "description": "сало, солёные огурцы, отварной картофель, капуста «Шукрут» и тосты с сельдью фирменного посола",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 0,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 7,
+        "sourceImage": "p6-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-11",
@@ -3697,7 +3751,16 @@ const restaurantMenus={
       "weight": "220 гр",
       "description": "помидоры, жаренные в хрустящем кляре баклажаны, авокадо, кинза, соус сладкий чили",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 11.11111,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 10,
+        "sourceImage": "p9-1",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-12",
@@ -3707,7 +3770,16 @@ const restaurantMenus={
       "weight": "230 гр",
       "description": "салат романо, жареный говяжий фарш, помидоры, соленые огурцы, красный лук, соус гриль и пармезан",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 11.11111,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 10,
+        "sourceImage": "p9-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-13",
@@ -3717,7 +3789,16 @@ const restaurantMenus={
       "weight": "270 гр",
       "description": "микс салатов, тунец, мини-картофель, запечённый перец, перепелиное яйцо, красный лук, томаты черри, имбирная заправка",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 11.11111,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 10,
+        "sourceImage": "p9-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-14",
@@ -3727,7 +3808,16 @@ const restaurantMenus={
       "weight": "250 гр",
       "description": "филе куриной грудки, микс салатов, свежий огурец, огурцы кимчи, яйцо, соус из креветок и пармезана, картофельные чипсы",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 11.11111,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 10,
+        "sourceImage": "p9-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-15",
@@ -3737,7 +3827,16 @@ const restaurantMenus={
       "weight": "170 гр",
       "description": "тонко нарезанный стейк прожарки BlueRare, рукола, вяленые томаты, сыр пармезан и томаты черри, заправленные бальзамическим соусом",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 11.11111,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 11,
+        "sourceImage": "p10-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-16",
@@ -3747,7 +3846,16 @@ const restaurantMenus={
       "weight": "200 гр",
       "description": "хрустящие листья салата, заправленные фирменным соусом цезарь, с томатами черри, сыром пармезан и крутонами",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 11.11111,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 11,
+        "sourceImage": "p10-5",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-17",
@@ -3757,7 +3865,16 @@ const restaurantMenus={
       "weight": "200 гр",
       "description": "хрустящие листья салата, заправленные фирменным соусом цезарь, с томатами черри, сыром пармезан и крутонами",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 22.22222,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 11,
+        "sourceImage": "p10-6",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-18",
@@ -3767,7 +3884,16 @@ const restaurantMenus={
       "weight": "180/60/25 гр",
       "description": "хрустящие крылья с чесноком и чеддером, подаются с морковью и сельдереем",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 22.22222,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 12,
+        "sourceImage": "p11-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-19",
@@ -3777,7 +3903,16 @@ const restaurantMenus={
       "weight": "180/60/25 гр",
       "description": "крылья, глазированные фирменным соусом, подаются с морковью и сельдереем",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 22.22222,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 12,
+        "sourceImage": "p11-5",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-20",
@@ -3787,7 +3922,16 @@ const restaurantMenus={
       "weight": "180/60/25 гр",
       "description": "хрустящие крылья, глазированные пикантным соусом, подаются с морковью и сельдереем",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 22.22222,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 12,
+        "sourceImage": "p11-7",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-21",
@@ -3797,7 +3941,16 @@ const restaurantMenus={
       "weight": "180/60/25 гр",
       "description": "классические острые крылышки баффало, подаются с морковью и сельдереем",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 22.22222,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 12,
+        "sourceImage": "p11-6",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-22",
@@ -3807,7 +3960,16 @@ const restaurantMenus={
       "weight": "90/30 гр",
       "description": "хрустящие трубочки из теста для спринг-роллов с начинкой из томлёной говядины с сыром сулугуни. Подаём с чесночным соусом.",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 22.22222,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 13,
+        "sourceImage": "p12-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-23",
@@ -3817,7 +3979,16 @@ const restaurantMenus={
       "weight": "250 гр",
       "description": "в остро-сладком соусе",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 33.33333,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 13,
+        "sourceImage": "p12-5",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-24",
@@ -3827,7 +3998,16 @@ const restaurantMenus={
       "weight": "200/25 гр",
       "description": "кусочки нежного филе в хрустящем кляре, подаются с соусом сладкий чили",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 33.33333,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 13,
+        "sourceImage": "p12-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-25",
@@ -3837,7 +4017,16 @@ const restaurantMenus={
       "weight": "150 гр",
       "description": "горячие чесночные тосты из бородинского хлеба",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 33.33333,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 13,
+        "sourceImage": "p12-6",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-26",
@@ -3847,7 +4036,16 @@ const restaurantMenus={
       "weight": "190/30/30 гр",
       "description": "тигровые креветки, мясо мидий, кольца кальмара, щупальца кальмара, обжаренные в хрустящей панировке, подаются с чесночным соусом и соусом сладкий чили",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 33.33333,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 13,
+        "sourceImage": "p12-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-27",
@@ -3857,7 +4055,16 @@ const restaurantMenus={
       "weight": "180/110/30 гр",
       "description": "филе трески в хрустящем кляре с картофелем фри, соусом тартар и долькой лимона",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 33.33333,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 14,
+        "sourceImage": "p13-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-28",
@@ -3867,7 +4074,16 @@ const restaurantMenus={
       "weight": "240/30 гр",
       "description": "тортилья с рваной говядиной, сыром чеддер и томатами. Подаём с соусом из авокадо",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 33.33333,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 14,
+        "sourceImage": "p13-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-29",
@@ -3877,7 +4093,16 @@ const restaurantMenus={
       "weight": "50 гр",
       "description": "",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 44.44444,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 14,
+        "sourceImage": "p13-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-30",
@@ -3887,7 +4112,16 @@ const restaurantMenus={
       "weight": "180/25 гр",
       "description": "сыр моцарелла с рублеными перчиками халапеньо в панировке, подаются с соусом сладкий чили",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 44.44444,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 14,
+        "sourceImage": "p13-1",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-31",
@@ -3907,7 +4141,16 @@ const restaurantMenus={
       "weight": "220/25 гр",
       "description": "сыр моцарелла в хрустящей панировке, подаётся с соусом блю чиз",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 44.44444,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 14,
+        "sourceImage": "p13-5",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-33",
@@ -3917,7 +4160,16 @@ const restaurantMenus={
       "weight": "120/30 гр",
       "description": "нежнейшее мясо мидий в хрустящем кляре, соус сладкий чили",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 44.44444,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 15,
+        "sourceImage": "p14-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-34",
@@ -3927,7 +4179,16 @@ const restaurantMenus={
       "weight": "140/20/25 гр",
       "description": "подаётся с соусом тартар и жареными каперсами",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 44.44444,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 15,
+        "sourceImage": "p14-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-35",
@@ -3947,7 +4208,16 @@ const restaurantMenus={
       "weight": "120/25 гр",
       "description": "в панировке, подаются с соусом тартар",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 44.44444,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 15,
+        "sourceImage": "p14-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-37",
@@ -3957,7 +4227,16 @@ const restaurantMenus={
       "weight": "170/20 гр",
       "description": "с чесноком и фирменным соусом",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 55.55556,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 15,
+        "sourceImage": "p14-6",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-38",
@@ -3967,7 +4246,16 @@ const restaurantMenus={
       "weight": "160/25 гр",
       "description": "подаются с чесночным соусом",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 55.55556,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 15,
+        "sourceImage": "p14-5",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-39",
@@ -3977,7 +4265,16 @@ const restaurantMenus={
       "weight": "150/20/25 гр",
       "description": "подаются с соусом сладкий чили",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 55.55556,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 15,
+        "sourceImage": "p14-8",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-40",
@@ -3987,7 +4284,16 @@ const restaurantMenus={
       "weight": "430/30/30 гр",
       "description": "мойва, щупальца кальмара, филе трески, тигровые креветки, подаются с чесночным соусом и соусом тартар",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 55.55556,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 16,
+        "sourceImage": "p15-1",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-41",
@@ -3997,7 +4303,16 @@ const restaurantMenus={
       "weight": "750/30/25/25 гр",
       "description": "щупальца кальмара, куриные стрипсы, гарлики, жареный чечил, жареный сыр, арахис, соус блю чиз, соус тартар",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 55.55556,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 16,
+        "sourceImage": "p15-6",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-42",
@@ -4007,7 +4322,16 @@ const restaurantMenus={
       "weight": "200/200/200/40 гр",
       "description": "крылышки чили, крылышки гриль, крылышки с сыром и чесноком, соус блю чиз",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 55.55556,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 16,
+        "sourceImage": "p15-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-43",
@@ -4017,7 +4341,16 @@ const restaurantMenus={
       "weight": "160/100/100/25/25/25 гр",
       "description": "креветки в тесте, сырные шарики с кальмаром, картофель фри, кетчуп, соус сладкий чили, соус чесночный",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 66.66667,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 16,
+        "sourceImage": "p15-5",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-44",
@@ -4027,7 +4360,16 @@ const restaurantMenus={
       "weight": "1000/50 гр",
       "description": "подаются с баварской горчицей",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 66.66667,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 16,
+        "sourceImage": "p15-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-45",
@@ -4037,7 +4379,16 @@ const restaurantMenus={
       "weight": "180/40 гр",
       "description": "",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 66.66667,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 17,
+        "sourceImage": "p16-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-46",
@@ -4047,7 +4398,16 @@ const restaurantMenus={
       "weight": "180/40 гр",
       "description": "",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 66.66667,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 17,
+        "sourceImage": "p16-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-47",
@@ -4057,7 +4417,16 @@ const restaurantMenus={
       "weight": "180/40 гр",
       "description": "",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 66.66667,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 17,
+        "sourceImage": "p16-5",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-48",
@@ -4067,7 +4436,16 @@ const restaurantMenus={
       "weight": "180/40 гр",
       "description": "",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 66.66667,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 17,
+        "sourceImage": "p16-6",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-49",
@@ -4077,7 +4455,16 @@ const restaurantMenus={
       "weight": "180/40 гр",
       "description": "",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 77.77778,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 17,
+        "sourceImage": "p16-7",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-50",
@@ -4097,7 +4484,16 @@ const restaurantMenus={
       "weight": "360 гр",
       "description": "говяжья котлета, жареный камамбер в панировке, руккола, чесночный соус",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 77.77778,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 18,
+        "sourceImage": "p17-6",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-52",
@@ -4107,7 +4503,16 @@ const restaurantMenus={
       "weight": "330 гр",
       "description": "куриное филе в панировке, помидор, микс салатов, сыр чеддер, красный лук, соус цезарь",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 77.77778,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 18,
+        "sourceImage": "p17-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-53",
@@ -4157,7 +4562,16 @@ const restaurantMenus={
       "weight": "360 гр",
       "description": "черная булочка, свино-говяжьи колбаски, квашеная капуста, соленый огурец, домашний майонез, кетчуп, горчица, жареный лук",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 77.77778,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 18,
+        "sourceImage": "p17-5",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-58",
@@ -4167,7 +4581,16 @@ const restaurantMenus={
       "weight": "200/140/120/25 гр",
       "description": "подаётся с толчёным картофелем с салом, капустой «Шукрут» и мексиканским соусом",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 77.77778,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 20,
+        "sourceImage": "p19-1",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-59",
@@ -4177,7 +4600,16 @@ const restaurantMenus={
       "weight": "120/40/30 гр",
       "description": "с соусом чёрный перец и жареным ромейном",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 77.77778,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 20,
+        "sourceImage": "p19-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-60",
@@ -4187,7 +4619,16 @@ const restaurantMenus={
       "weight": "1000/150/150 гр",
       "description": "подаётся с капустой «Шукрут» и картофелем",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 88.88889,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 20,
+        "sourceImage": "p19-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-61",
@@ -4207,7 +4648,16 @@ const restaurantMenus={
       "weight": "265 гр",
       "description": "запечённая треска, подаётся на каннеллони со шпинатом и сливочным сыром с томатным соусом",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 88.88889,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 21,
+        "sourceImage": "p20-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-63",
@@ -4217,7 +4667,16 @@ const restaurantMenus={
       "weight": "400 гр",
       "description": "свинина с картофелем, луком и томатами, запечённая под сыром моцарелла в сметанном соусе",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 88.88889,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 21,
+        "sourceImage": "p20-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-64",
@@ -4257,7 +4716,16 @@ const restaurantMenus={
       "weight": "310 гр",
       "description": "",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 88.88889,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 22,
+        "sourceImage": "p21-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-68",
@@ -4267,7 +4735,16 @@ const restaurantMenus={
       "weight": "300 гр",
       "description": "в сливочно-чесночном соусе",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 88.88889,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 22,
+        "sourceImage": "p21-1",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-69",
@@ -4277,7 +4754,16 @@ const restaurantMenus={
       "weight": "400 гр",
       "description": "листы лазаньи, соус болоньезе, сыр моцарелла с соусом из пармезана",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 100,
+        "y": 88.88889,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 22,
+        "sourceImage": "p21-4",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-70",
@@ -4287,7 +4773,16 @@ const restaurantMenus={
       "weight": "300/50/60 гр",
       "description": "сытное и ароматное блюдо подаётся с салом и бородинским хлебом",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 0,
+        "y": 100,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 23,
+        "sourceImage": "p22-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-71",
@@ -4297,7 +4792,16 @@ const restaurantMenus={
       "weight": "450/45 гр",
       "description": "наваристый суп на основе куриного бульона и сливок с добавлением помидоров, картофеля и трески. Подаем с поджаренными тостами из багета",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 20,
+        "y": 100,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 23,
+        "sourceImage": "p22-3",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-72",
@@ -4307,7 +4811,16 @@ const restaurantMenus={
       "weight": "460/15/15 гр",
       "description": "бульон с добавлением кокосового молока, креветки, щупальца кальмара, древесные грибы, черри, рис.",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 40,
+        "y": 100,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 23,
+        "sourceImage": "p22-9",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-73",
@@ -4377,7 +4890,16 @@ const restaurantMenus={
       "weight": "200 гр",
       "description": "с домашним мороженым и мятным соусом",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 60,
+        "y": 100,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 25,
+        "sourceImage": "p24-1",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-80",
@@ -4387,7 +4909,16 @@ const restaurantMenus={
       "weight": "140 гр",
       "description": "с соленой карамелью и мороженым",
       "image": "",
-      "source": "https://smolensk.harats.com/nikolayeva/menu/"
+      "source": "https://smolensk.harats.com/nikolayeva/menu/",
+      "photoSprite": {
+        "x": 80,
+        "y": 100,
+        "cols": 6,
+        "rows": 10,
+        "sourcePage": 25,
+        "sourceImage": "p24-2",
+        "url": "assets/harats-food.webp"
+      }
     },
     {
       "id": "harats-81",

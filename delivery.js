@@ -2,7 +2,7 @@ const guruCategoryNames={all:'Все блюда','goryachaya-vypechka':'Выпе
 const restaurantBaskets=new Map();let basket=new Map(),category='all',basketView=false,activeMenu=[],activeRestaurant=null,categoryNames={};
 function configureDelivery(r){if(activeRestaurant?.id!==r.id)category='all';activeRestaurant=r;activeMenu=restaurantMenus[r.id]||[];if(!restaurantBaskets.has(r.id))restaurantBaskets.set(r.id,new Map());basket=restaurantBaskets.get(r.id);categoryNames={all:'Все блюда',...Object.fromEntries([...new Set(activeMenu.map(p=>p.category))].map(c=>[c,r.id==='guru'?(guruCategoryNames[c]||c):c]))};delivery.setAttribute('aria-label','Доставка — '+r.name);}
 const escapeHtml=s=>String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function dishImage(p){return p.image?'<img src="'+escapeHtml(p.image)+'" alt="'+escapeHtml(p.name)+'" loading="lazy">':'<div class="dish-no-photo" aria-hidden="true">'+escapeHtml(activeRestaurant.name)+'</div>';}
+function dishImage(p){if(p.photoSprite){const s=p.photoSprite;return '<div class="dish-photo" role="img" aria-label="'+escapeHtml(p.name)+'" style="background-image:url('+s.url+');background-size:'+s.cols*100+'% '+s.rows*100+'%;background-position:'+s.x+'% '+s.y+'%"></div>';}return p.image?'<img src="'+escapeHtml(p.image)+'" alt="'+escapeHtml(p.name)+'" loading="lazy">':'<div class="dish-no-photo" aria-hidden="true">'+escapeHtml(activeRestaurant.name)+'</div>';}
 const delivery=document.createElement('section');delivery.className='delivery delivery-page';delivery.setAttribute('aria-label','Доставка из Гуру');
 const rub=n=>n.toLocaleString('ru-RU')+' ₽';
 const total=()=>activeMenu.reduce((s,p)=>s+p.price*(basket.get(p.id)||0),0);
