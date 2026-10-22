@@ -41,3 +41,5 @@ body.guru-theme{--paper:#171514;--ink:#fff7eb;--muted:#ccc4bc;--purple:#f2ba66;c
 .checkout-demo{max-height:none;height:auto;display:grid;gap:14px;margin-top:24px}.checkout-demo h3{margin-bottom:0}.checkout-demo .booking-demo{margin:0}.checkout-demo input{min-height:48px}
 
 .ui-arrow{display:inline-block;flex:0 0 20px;vertical-align:middle}.detail .action{gap:16px;text-align:left;line-height:1.45}.official .ui-arrow{margin-left:6px}
+
+.preorder-menu-page .reserve-sticky{position:fixed;left:50%;transform:translateX(-50%);bottom:0;width:100%;max-width:430px;margin:0;z-index:30;box-shadow:0 -8px 24px #0002}.preorder-menu-page .reserve-content{padding-bottom:125px}.admin-entry{color:var(--muted);font-size:12px;text-decoration:underline;flex-basis:100%;margin-top:18px}.mobile>footer{flex-wrap:wrap}
